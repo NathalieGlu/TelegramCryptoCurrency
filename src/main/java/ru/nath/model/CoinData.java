@@ -16,33 +16,33 @@ public class CoinData implements Serializable {
     @JsonProperty("rank")
     String rank;
     @JsonProperty("price_usd")
-    String price_usd;
+    String priceUsd;
     @JsonProperty("price_btc")
-    String price_btc;
+    String priceBtc;
     @JsonProperty("24h_volume_usd")
-    String day_volume_usd;
+    String dayVolumeUsd;
     @JsonProperty("market_cap_usd")
-    String market_cap_usd;
+    String marketCapUsd;
     @JsonProperty("available_supply")
-    String available_supply;
+    String availableSupply;
     @JsonProperty("total_supply")
-    String total_supply;
+    String totalSupply;
     @JsonProperty("max_supply")
-    String max_supply;
+    String maxSupply;
     @JsonProperty("percent_change_1h")
-    String percent_change_1h;
+    String percentChange1H;
     @JsonProperty("percent_change_24h")
-    String percent_change_24h;
+    String percentChange24H;
     @JsonProperty("percent_change_7d")
-    String percent_change_7d;
+    String percentChange7D;
     @JsonProperty("last_updated")
-    String last_updated;
+    String lastUpdated;
     @JsonProperty("price_rub")
-    String price_rub;
+    String priceRub;
     @JsonProperty("24h_volume_rub")
-    String day_volume_rub;
+    String dayVolumeRub;
     @JsonProperty("market_cap_rub")
-    String market_cap_rub;
+    String marketCapRub;
 
     public String getName() {
         return this.name;
@@ -56,15 +56,15 @@ public class CoinData implements Serializable {
         return this.rank;
     }
 
-    public String getPrice_usd() {
-        return this.price_usd;
+    public String getPriceUsd() {
+        return this.priceUsd;
     }
 
-    public String getPercent_change_24h() {
-        return this.percent_change_24h;
+    public String getPercentChange24H() {
+        return this.percentChange24H;
     }
 
-    public String getPrice_rub() {
-        return this.price_rub;
+    public String getPriceRub() {
+        return this.priceRub;
     }
 }
